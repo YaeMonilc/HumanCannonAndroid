@@ -36,9 +36,18 @@ public class ConfigActivity extends AppCompatActivity {
     }
     private void listening(){
         ok.setOnClickListener(view -> {
-            Config.serveUrl = String.valueOf(severAddress.getText());
-            Config.number = Integer.parseInt(String.valueOf(number.getText()));
-            Config.prefix = String.valueOf(prefix.getText());
+            String serveUrlS = String.valueOf(severAddress.getText());
+            if (!serveUrlS.equals("")){
+                Config.serveUrl = serveUrlS;
+            }
+            int numberN = Integer.parseInt(String.valueOf(number.getText()));
+            if (!String.valueOf(numberN).equals("")){
+                Config.number = numberN;
+            }
+            String prefixS = String.valueOf(prefix.getText());
+            if (!prefixS.equals("")){
+                Config.prefix = prefixS;
+            }
             startActivity(new Intent(ConfigActivity.this,MainActivity.class));
         });
     }

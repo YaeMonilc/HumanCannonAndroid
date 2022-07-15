@@ -2,12 +2,14 @@
     <string name="app_name">HumanCannonAndroid</string>
     <string name="out">Out</string>
     <string name="submit">Submit</string>
-    <string name="message">Account:%s,Stats:&lt;font color="%s">%s&lt;/font></string>
-    <string name="success">Success:&lt;font color="%s">%d&lt;/font></string>
+    <string name="message">[%s]Account:%s,Stats:&lt;font color="%s">%s&lt;/font></string>
+    <string name="success">Success:&lt;font color=%s>%d&lt;/font></string>
     <string name="failed">Failed:&lt;font color="%s">%d&lt;/font></string>
     <string name="total">Total:&lt;font color="%s">%d&lt;lt/font></string>
     <string name="severAddress">Sever</string>
     <string name="number">Number</string>
     <string name="prefix">Prefix</string>
     <string name="ok">OK</string>
+    <string name="titleM">Message</string>
+    <string name="successM">Success!</string>
 </resources>

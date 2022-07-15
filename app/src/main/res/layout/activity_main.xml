@@ -62,7 +62,10 @@
                 android:gravity="left|top"
                 android:inputType="textMultiLine"
                 android:scrollbars="vertical"
-                android:singleLine="false" />
+                android:singleLine="false"
+                android:text="@string/app_name"
+                android:focusable="false"
+                android:textSize="10sp"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 

@@ -23,7 +23,8 @@ public class Cannon {
                 cannonball.result = "NO";
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            cannonball.result = "NO";
+            return cannonball;
         }
         return cannonball;
     }

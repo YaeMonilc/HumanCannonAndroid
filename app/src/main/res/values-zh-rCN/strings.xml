@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">人间大炮</string>
+    <string name="out">输出</string>
+    <string name="submit">提交</string>
+    <string name="message">[%s]账号:%s,状态:&lt;font color=%s>%s&lt;/font></string>
+    <string name="success">成功:&lt;font color=%s>%d&lt;/font></string>
+    <string name="failed">失败:&lt;font color=%s>%d&lt;/font></string>
+    <string name="total">总计:&lt;font color=%s>%d&lt;lt/font></string>
+    <string name="severAddress">服务器</string>
+    <string name="number">次数</string>
+    <string name="prefix">前缀</string>
+    <string name="ok">确认</string>
+    <string name="titleM">消息</string>
+    <string name="successM">成功!</string>
+</resources>
